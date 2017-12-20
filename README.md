@@ -39,7 +39,13 @@ vagrant ssh
  Then from the cl, run:
 
 ```
-python data_reporting_tool.py
+psql -d news -f newsdata.sql
+```
+
+ Then run
+
+```
+python data_report.py
 ```
 
  This should produce results similar to the snippets in the example.txt file.
