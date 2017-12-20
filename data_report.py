@@ -87,7 +87,7 @@ def error_days():
     if len(rows) > 1:
         for row in rows:
             print ("".join(row[0] + " - " +
-                        str(round(row[1], 1)) + "% errors\n"))
+                    str(round(row[1], 1)) + "% errors\n"))
         conn.close()
         return
     else:
