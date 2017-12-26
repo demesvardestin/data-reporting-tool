@@ -1,4 +1,4 @@
-Below are the results produced by the program, in plain text format:
+Below are the results produced by the program, in plain text
 
 1. popular_articles() result:
 
